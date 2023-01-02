@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* @import '~mdb-ui-kit/css/mdb.min.css'; */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+.navbar-toggler-icon{
+    border: 1px solid rgb(56, 55, 55);
+    padding: 6px 25px;
+    border-radius: 5px;
+}
+.navbar-toggler-icon i{
+    margin-left: -9px;
+    
+}
+.active{
+    color: rgba(0, 0, 0, 0.897) !important;
+    font-weight: 600;
+}
+.form-control{
+    background-color: rgb(249, 247, 252) !important;
+}
+.btn-primary{
+    box-shadow: none !important;
+}
+.btn-outline-success{
+    
+    color: black;
+}
+.lines-menu{
+    background-color: black;
+    color: #0f0000;
+    width: 5px;
+    height: 2px;
+    margin-bottom: 2px;
+}
+.text-center2{
+    display: flex !important;
+    /* align-items: center !important; */
+    justify-content: center;
+    
+    
+}
+.navbar-toggler-icon{
+    color: #0f0000 !important;
+}
+.text-center2 button{
+ font-size: 16px !important;
+    padding-right: 90px !important;
+}
+.text-center2 button:hover{
+    font-size: 16px !important;
+       color: #000000a8 !important;
+       font-weight: bold;
+
+   }
+ .fa-face-smile{
+    margin-left: 5px;
+ }
+.forget:hover{
+color: rgb(30, 120, 255) !important;
+   }
+.gradient-custom-2 {
+    
+    background-color: #0f0000;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center;
+    /* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593); 
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593); 
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+        background-color: transparent !important;
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+    
